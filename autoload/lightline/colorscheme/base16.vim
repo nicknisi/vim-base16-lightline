@@ -25,14 +25,14 @@ let s:p.replace.left    = [ [ s:base00, s:base08 ], [ s:base05, s:base02 ] ]
 let s:p.inactive.left   = [ [ s:base02, s:base00 ] ]
 
 let s:p.normal.middle   = [ [ s:base07, s:base01 ] ]
-let s:p.inactive.middle = [ [ s:base01, s:base00 ] ]
+let s:p.inactive.middle = [ [ s:base01, s:base01 ] ]
 let s:p.insert.middle   = [ [ s:base00, s:base0D ] ]
 
 let s:p.normal.right    = [ [ s:base07, s:base03 ], [ s:base06, s:base02 ] ]
 let s:p.inactive.right  = [ [ s:base07, s:base00 ] ]
 
 let s:p.normal.error    = [ [ s:base01, s:base08 ] ]
-let s:p.normal.warning  = [ [ s:base01, s:base09 ] ]
+let s:p.normal.warning  = [ [ s:base01, s:base0A ] ]
 
 let s:p.tabline.left    = [ [ s:base05, s:base02 ] ]
 let s:p.tabline.middle  = [ [ s:base05, s:base01 ] ]
